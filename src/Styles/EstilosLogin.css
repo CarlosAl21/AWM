@@ -1,0 +1,45 @@
+.loginpage{
+  background-color: #68829E;
+  min-height: 100vh;
+}
+/* EstilosLogin.css */
+.cuadrologin {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .cuadrologin h1 {
+    text-align: center;
+  }
+  
+  .cuadrologin h3 {
+    margin-top: 10px;
+  }
+  
+  .cuadrologin input {
+    width: 275px;
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cuadrologin .loginbutton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cuadrologin .loginbutton:hover {
+    background-color: #0056b3;
+  }
+  

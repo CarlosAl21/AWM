@@ -1,13 +1,11 @@
 img {
-    width: 300px;
+    width: 100px;
     height: auto;
     align-self: center;
+    margin-right: 25px;
+    margin-left: 10px;
   }
   .Encabezado {
-    background-color: #AEBD38;
-    min-height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Add this line */
-    text-align: center;
+    background-color: #505160;
   }

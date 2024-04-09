@@ -1,5 +1,5 @@
-import React from 'react'
-import '../Styles/EstilosNav.css'
+import React from 'react';
+import '../Styles/EstilosNav.css';
 
 export default function Nav() {
   return (
@@ -15,5 +15,5 @@ export default function Nav() {
         <button className='login'>Login</button>
       </div>      
     </div>
-  )
+  );
 }
