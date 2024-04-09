@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si no caben en una sola línea */
+  }
+  
+  .elemento {
+    width: 200px; /* Ancho de cada elemento */
+    margin: 10px; /* Espacio entre los elementos */
+    padding: 10px; /* Espacio dentro de cada elemento */
+    border: 1px solid #ccc; /* Borde para cada elemento */
+  }
+  
+  .elemento h1 {
+    margin-top: 0; /* Elimina el margen superior del encabezado h1 */
+  }
+  
+  .elemento img {
+    max-width: 100%; /* Ajusta la imagen para que no exceda el ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  .elemento button {
+    display: block; /* Muestra el botón como un bloque para que ocupe todo el ancho disponible */
+    width: 100%; /* Ancho completo del botón */
+    margin-top: 10px; /* Espacio superior entre el botón y el resto del contenido */
+  }
