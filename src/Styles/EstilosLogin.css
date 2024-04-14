@@ -42,4 +42,15 @@
   .cuadrologin .loginbutton:hover {
     background-color: #0056b3;
   }
-  
+  a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+  }
+  .cuadrologin .loginbutton a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }

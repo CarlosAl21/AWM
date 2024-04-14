@@ -12,7 +12,7 @@ export default function Login() {
             <input className='user' type="text" />
             <h3>Password</h3>
             <input className='password' type="text" name="" id="" />
-            <button className='loginbutton'>Login</button>
+            <button className='loginbutton'><a href="/">Login</a></button>
         </div>
     </div>
   )
