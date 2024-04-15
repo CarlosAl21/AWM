@@ -4,15 +4,20 @@ import '../Styles/EstilosNav.css';
 export default function Nav() {
   return (
     <div className='navegador'>
+      <div className='contlogo'>
+      <a href='/' className='Logo'>
+        <img src='logobanios.png' alt='' />
+      </a>
+      </div>
       <div className='botones'>
-        <button><a href="/">Inicio</a></button>
-        <button>Sitios turisticos</button>
-        <button>Contacto</button>
+        <a href="/">Inicio</a>
+        <a href="/">Lugares Turisticos</a>
+        <a href="/">Nosotros</a>
       </div>
       <div className='buscador'>
         <input className='buscadorinput' type="text" />
         <button className='buscadorbutton'>Buscar</button>
-        <button className='login'><a href="/login">Login</a></button>
+        <a className='loginbutton' href="/login">Login</a>
       </div>      
     </div>
   );

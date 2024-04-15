@@ -2,14 +2,13 @@ a {
   display: flex;
   align-items: center;
 }
-img {
-    width: 100px;
-    height: auto;
-    align-self: center;
-    margin-right: 25px;
-    margin-left: 10px;
-  }
-  .Encabezado {
-    display: flex;
-    background-color: #505160;
-  }
+
+.Encabezado {
+  display: flex;
+  background-color: #505160;
+}
+
+.navegador {
+  display: flex;
+  width: 100%;
+}

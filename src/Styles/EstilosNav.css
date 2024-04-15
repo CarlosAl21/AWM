@@ -1,12 +1,13 @@
-
-.navegador{
+.navegador {
+    font-size: larger;
     background-color: #505160;
     display: flex;
 }
-button{
-    background-color: #f5f5f5;
+
+.buscador button {
+    background-color: #AEBD38;
     border: none;
-    color: black;
+    color: aliceblue;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -17,23 +18,49 @@ button{
     padding: 10px 20px;
     transition-duration: 0.4s;
 }
-.botones{
+
+.botones {
     align-items: center;
     margin-right: 350px;
-}
-.buscador {
-    float: right;
-    align-self: center;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
     margin-right: auto;
 }
 
-input{
+.buscador {
+
+    display: flex;
+}
+
+input {
+    margin: 4px 2px;
     border-radius: 10px;
     height: 35px;
     width: 200px;
 }
 
-.login{
+.login {
     margin-right: 10px;
     margin-left: 10px;
+}
+
+a {
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+.loginbutton {
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 4px 2px;
 }

@@ -1,5 +1,19 @@
-  .Home {
-    background-color: #68829E;
-    min-height: 100vh;
-  }
-  
+@font-face {
+  font-family: 'Mukta';
+  src: url('https://fonts.google.com/specimen/Mukta') format('truetype');
+}
+
+.Home {
+  font-family: 'Mukta', sans-serif;
+  background-color: #68829E;
+  min-height: 100vh;
+}
+
+.rec {
+  font-family: 'Mukta', sans-serif;
+  color: white;
+  margin-left: 75px;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}

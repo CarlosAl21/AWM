@@ -4,17 +4,29 @@ import '../Styles/EstilosContenedores.css'
 export default function Contenedores() {
     const sitios = [
         {
-          nombre: "Juan",
-          foto: ""
+          nombre: "Casa del Arbol",
+          foto: "https://lapiznomada.com/wp-content/uploads/2015/12/ecuador-casa-del-arbol-7.jpg"
         },
         {
-          nombre: "María",
-          foto: ""
+          nombre: "PiQchur",
+          foto: "https://casasholidayhomes.com/images/blog_turismo/piQchur/pikchur.jpg"
         },
         {
-          nombre: "Pedro",
-          foto: ""
-        }
+          nombre: "Pailon del diablo",
+          foto: "https://www.pailondeldiablo.ec/assets/public/images/catalog/prod_36_huge.jpg?1647471391"
+        },
+        {
+          nombre: "Casa del Arbol",
+          foto: "https://lapiznomada.com/wp-content/uploads/2015/12/ecuador-casa-del-arbol-7.jpg"
+        },
+        {
+          nombre: "PiQchur",
+          foto: "https://casasholidayhomes.com/images/blog_turismo/piQchur/pikchur.jpg"
+        },
+        {
+          nombre: "Pailon del diablo",
+          foto: "https://www.pailondeldiablo.ec/assets/public/images/catalog/prod_36_huge.jpg?1647471391"
+        },
       ];
   return (
     <div className='contenedor'>
