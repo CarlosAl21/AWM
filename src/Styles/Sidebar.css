@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Mukta';
+  src: url('https://fonts.google.com/specimen/Mukta') format('truetype');
+}
+.sidebar {
+  font-family: 'Mukta', sans-serif;
+  font-size: large;
+  color: white;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background-color: #AEBD38;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%) translateY(3px);
+}
+
+.sidebar:hover {
+  transform: translateX(0);
+  /* background-color: #f4f4f4; */
+}
+
+.sidebar.open {
+  transform: translateX(0) translateY(3px);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.sidebar a {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+
