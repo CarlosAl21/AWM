@@ -65,3 +65,33 @@ a {
   justify-content: center;
   text-align: center;
 }
+
+.userInp {
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.logouser {
+  font-size: 30px;
+  margin-top: 5px;
+
+}
+.passwordInp {
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  margin-bottom: 0;
+  gap: 0;
+
+}
+.logocandado {
+  padding: 0;
+  margin-right: 23.79px;
+  width: 0;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 30px;
+  margin-top: 5px;
+}
