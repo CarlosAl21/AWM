@@ -3,14 +3,14 @@
   src: url('https://fonts.google.com/specimen/Mukta') format('truetype');
 }
 
-.loginpage {
+.registerpage {
   font-family: 'Mukta', sans-serif;
   background-color: #68829E;
   min-height: 100vh;
 }
 
 /* EstilosLogin.css */
-.cuadrologin {
+.cuadroregister {
   width: 300px;
   margin: 50px auto;
   padding: 20px;
@@ -19,17 +19,17 @@
   background-color: #f9f9f9;
 }
 
-.cuadrologin h1 {
+.cuadroregister h1 {
   text-align: center;
   margin: 0;
 }
 
-.cuadrologin h3 {
+.cuadroregister h3 {
   margin-top: 10px;
   margin-bottom: 0;
 }
 
-.cuadrologin input {
+.cuadroregister input {
   width: 275px;
   height: 15px;
   padding: 10px;
@@ -38,18 +38,18 @@
   border-radius: 5px;
 }
 
-.cuadrologin .loginbutton {
+.cuadroregister .Registerbutton {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #AEBD38;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.cuadrologin .loginbutton:hover {
-  background-color: #0056b3;
+.cuadroregister .Registerbutton:hover {
+  background-color: #626b1d;
 }
 
 a {
@@ -59,26 +59,21 @@ a {
   text-align: center;
 }
 
-.cuadrologin .loginbutton a {
+.cuadroregister .Registerbutton a {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-.userInp {
+.nombre {
   display: flex;
   justify-content: right;
   margin: 0;
   margin-bottom: 0;
 }
 
-.logouser {
-  font-size: 30px;
-  margin-top: 5px;
-
-}
-.passwordInp {
+.password {
   display: flex;
   justify-content: right;
   margin: 0;
@@ -86,34 +81,4 @@ a {
   gap: 0;
 
 }
-.logocandado {
-  padding: 0;
-  margin-right: 23.79px;
-  width: 0;
-  background-color: transparent;
-  border-color: transparent;
-  font-size: 30px;
-  margin-top: 5px;
-}
 
-.cuadrologin .Registerbutton {
-  width: 100%;
-  padding: 10px;
-  background-color: #AEBD38;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 5px;
-}
-
-.cuadrologin .Registerbutton a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.cuadrologin .Registerbutton:hover {
-  background-color: #626b1d;
-}

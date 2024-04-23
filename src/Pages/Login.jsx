@@ -33,7 +33,8 @@ export default function Login() {
               </button>
             </div>
             
-            <button className='loginbutton'><a href="/">Login</a></button>
+            <button className='loginbutton'><a href="/">Ingersar</a></button>
+            <button className='Registerbutton'><a href="/register">Registrarse</a></button>
         </div>
     </div>
   )
