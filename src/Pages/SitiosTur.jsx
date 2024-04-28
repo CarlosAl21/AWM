@@ -8,7 +8,7 @@ export default function SitiosTur() {
   return (
     <div className='principal'>
         <Header />
-        <h1 className='sitios'><TbPointFilled />Sitios Turisticos</h1>
+        <h1 className='sitios'><TbPointFilled />Sitios Turísticos</h1>
         <Contenedores />
     </div>
   )

@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
         <ul>
             <a href="/"><li>Inicio</li></a>
-            <a href="/sitiosturisticos"><li>Sitios Turisticos</li></a>
+            <a href="/sitiosturisticos"><li>Sitios Turísticos</li></a>
             <a href="/"><li>Nosotros</li></a>
         </ul>
       </div>

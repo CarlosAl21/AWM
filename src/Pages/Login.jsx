@@ -19,12 +19,12 @@ export default function Login() {
         <div className='cuadrologin'>
             <form>
             <h1>Login</h1>
-            <h3>User</h3>
+            <h3>Correo</h3>
             <div className='userInp'>
               <input className='user' type="text" name='name'/>
               <CiUser className='logouser'/>
             </div>
-            <h3>Password</h3>
+            <h3>Contraseña</h3>
             <div className='passwordInp'>
               <input className='password'
               type={showPassword ? 'text' : 'password'}
@@ -35,7 +35,7 @@ export default function Login() {
               </button>
             </div>
             
-            <button className='loginbutton'>Ingersar</button>
+            <button className='loginbutton'><a href="/">Ingersar </a></button>
             <button className='Registerbutton'><a href="/register">Registrarse</a></button>
             </form>
             

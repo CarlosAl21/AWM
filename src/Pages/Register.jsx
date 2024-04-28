@@ -36,7 +36,7 @@ export default function Register() {
             <Header />
             <div className='cuadroregister'>
                 <form onSubmit={registrarse}>
-                    <h1>Register</h1>
+                    <h1>Registrarse</h1>
                     <h3>Nombre</h3>
                     <div className='nombre'>
                         <input className='nom' type="text" name='name'/>

@@ -6,7 +6,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 export default function Slider() {
   const sitios = [
     {
-      nombre: "Casa del Arbol",
+      nombre: "Casa del Árbol",
       foto: "https://lapiznomada.com/wp-content/uploads/2015/12/ecuador-casa-del-arbol-7.jpg"
     },
     {
@@ -14,7 +14,7 @@ export default function Slider() {
       foto: "https://casasholidayhomes.com/images/blog_turismo/piQchur/pikchur.jpg"
     },
     {
-      nombre: "Pailon del diablo",
+      nombre: "Pailón del Diablo",
       foto: "https://www.pailondeldiablo.ec/assets/public/images/catalog/prod_36_huge.jpg?1647471391"
     }
   ];
