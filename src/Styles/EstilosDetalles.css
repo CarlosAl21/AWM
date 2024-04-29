@@ -1,0 +1,25 @@
+.detalles {
+    display: block;
+    margin-left: 150px;
+  margin-right: 150px;
+}
+
+.detalles h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.detalles li {
+  font-weight: bold;
+}
+
+.detalles button {
+  border-radius: 10px;
+  border: 2px;
+  border-color: black;
+  background-color: #AEBD38;
+  cursor: pointer;
+  color: white;
+}
+
+

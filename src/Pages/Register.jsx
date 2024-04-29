@@ -9,7 +9,7 @@ export default function Register() {
         const Correo_electronico = e.target.email.value;
         const Contraseña = e.target.password.value;
         try{
-            fetch('http://localhost:3000/servicios', {
+            fetch('http://localhost:3000/serviciosUsuario', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

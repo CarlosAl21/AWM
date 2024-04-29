@@ -1,0 +1,22 @@
+.descripcion {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contDesc{
+    display: flex;
+    background-color: #f5f5f5;
+    gap: 30px;
+    height: 250px;
+}
+
+.contDesc img {
+    width: 1000px;
+    height: 500;
+}
+.desc {
+    width: 100%;
+}
