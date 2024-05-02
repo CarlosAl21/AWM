@@ -10,8 +10,8 @@ export default function Description({descripcion, imagen }) {
     ];
     return (
         <div>
-            {contenido.map((contenido) => (
-                <div className='descripcion'>
+            {contenido.map((contenido,index) => (
+                <div className='descripcion' key={index}>
                     <div className='contDesc'>
                         <img src={contenido.foto} alt=''/>
                         <p className='desc'>{contenido.desc}</p>

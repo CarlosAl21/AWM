@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header'
 import '../Styles/EstilosRegister.css'
+import Footer from '../Components/Footer'
 
 export default function Register() {
     const registrarse = (e) => {
@@ -9,7 +10,7 @@ export default function Register() {
         const Correo_electronico = e.target.email.value;
         const Contraseña = e.target.password.value;
         try{
-            fetch('http://localhost:3000/serviciosUsuario', {
+            fetch('http://localhost:3000/servicioUsuario', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -28,6 +29,7 @@ export default function Register() {
             });
         }
         catch(error){
+            const usuario=localStorage.setItem("usuario")
             console.log(error);
         }
     }
@@ -39,20 +41,21 @@ export default function Register() {
                     <h1>Registrarse</h1>
                     <h3>Nombre</h3>
                     <div className='nombre'>
-                        <input className='nom' type="text" name='name'/>
+                        <input className='nom' type="text" name='name' required/>
                     </div>
                     <h3>Correo</h3>
                     <div className='correo'>
-                        <input className='cor' type="text" name='email'/>
+                        <input className='cor' type="text" name='email' required/>
                     </div>
                     <h3>Contraseña</h3>
                     <div className='password'>
-                        <input className='pass' type='text' name='password'/>
+                        <input className='pass' type='text' name='password' required/>
                     </div>
                     <button className='Registerbutton' type='submit'>Registrarse</button>
                 </form>
 
             </div>
+            <Footer/>
         </div>
     )
-}
+}   

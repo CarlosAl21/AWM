@@ -1,7 +1,11 @@
 .detalles {
-    display: block;
-    margin-left: 150px;
-  margin-right: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #505160;
+  color: white;
+  width: 600px;
+  flex-wrap: wrap;
 }
 
 .detalles h2 {
@@ -20,6 +24,7 @@
   background-color: #AEBD38;
   cursor: pointer;
   color: white;
+  margin-bottom: 20px;
 }
 
 

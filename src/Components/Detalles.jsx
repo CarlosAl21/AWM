@@ -23,8 +23,9 @@ export default function Detalles({ hor, pre, ubi, cat }) {
                         <p>{item.precios}</p>
                         <li>Ubicación</li>
                         <p>{item.ubicacion}</p>
+                        <li>Categoria</li>
+                        <button>{item.categoria}</button>
                     </ul>
-                    <button>{item.categoria}</button>
                 </div>
             ))}
         </div>

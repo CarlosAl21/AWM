@@ -45,20 +45,28 @@
   align-items: center;
 }
 
-.elemento button {
+.btnIr {
   background-color: #AEBD38;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px;
   padding: 10px 20px;
   transition-duration: 0.4s;
-  display: block;
-  /* Muestra el botón como un bloque para que ocupe todo el ancho disponible */
   width: 100%;
-  /* Ancho completo del botón */
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  justify-content: center; /* Add this line to center the text horizontally */
+  align-items: center; /* Add this line to center the text vertically */
 }

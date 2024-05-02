@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import Contenedores from '../Components/Contenedores'
 import { TbPointFilled } from "react-icons/tb";
 import '../Styles/EstilosSitiosTuristicos.css'
+import Footer from '../Components/Footer';
 
 export default function SitiosTur() {
   return (
@@ -10,6 +11,7 @@ export default function SitiosTur() {
         <Header />
         <h1 className='sitios'><TbPointFilled />Sitios Turísticos</h1>
         <Contenedores />
+        <Footer />
     </div>
   )
 }

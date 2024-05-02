@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles/EstilosNav.css';
 import Sidebar from './Sidebar';
+import logo from '../Assets/logobanios.png';
 
 export default function Nav() {
   return (
@@ -10,14 +11,9 @@ export default function Nav() {
       </div>
       <div className='contlogo'>
       <a href='/' className='Logo'>
-        <img src='logobanios.png' alt='' />
+        <img src={logo} alt='' />
       </a>
       </div>
-      {/* <div className='botones'>
-        <a href="/">Inicio</a>
-        <a href="/">Lugares Turisticos</a>
-        <a href="/">Nosotros</a>
-      </div> */}
       <div className='buscador'>
         <input className='buscadorinput' type="text" />
         <button className='buscadorbutton'>Buscar</button>

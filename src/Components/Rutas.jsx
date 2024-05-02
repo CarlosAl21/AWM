@@ -14,7 +14,7 @@ export default function Rutas() {
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register/>} />
       <Route path='/sitiosturisticos' element={<SitiosTur/>} />
-      <Route path='/lugarturistico' element={<Lugar/>} />
+      <Route path='/lugarturistico/:id' element={<Lugar/>} />
     </Routes>
     </BrowserRouter>
   )

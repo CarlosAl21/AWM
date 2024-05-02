@@ -4,6 +4,7 @@ import '../Styles/EstilosLogin.css'
 import { CiUser } from "react-icons/ci";  
 import { CiLock } from "react-icons/ci";
 import { CiUnlock } from "react-icons/ci";
+import Footer from '../Components/Footer'
 
 export default function Login() {
 
@@ -38,8 +39,9 @@ export default function Login() {
             <button className='loginbutton'><a href="/">Ingersar </a></button>
             <button className='Registerbutton'><a href="/register">Registrarse</a></button>
             </form>
-            
         </div>
+        <Footer/>
     </div>
+    
   )
 }
