@@ -19,6 +19,7 @@ export default function Sidebar() {
         <ul>
             <a href="/"><li>Inicio</li></a>
             <a href="/sitiosturisticos"><li>Sitios Turísticos</li></a>
+            <a href='/itinerario'><li>Itinerario</li></a>
         </ul>
       </div>
     </div>

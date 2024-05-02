@@ -5,6 +5,7 @@ import Login from "../Pages/Login";
 import SitiosTur from '../Pages/SitiosTur';
 import Register from '../Pages/Register';
 import Lugar from '../Pages/Lugar';
+import Itinerario from '../Pages/Itinerario';
 
 export default function Rutas() {
   return (
@@ -15,6 +16,7 @@ export default function Rutas() {
       <Route path='/register' element={<Register/>} />
       <Route path='/sitiosturisticos' element={<SitiosTur/>} />
       <Route path='/lugarturistico/:id' element={<Lugar/>} />
+      <Route path='/itinerario' element={<Itinerario/>} />
     </Routes>
     </BrowserRouter>
   )
