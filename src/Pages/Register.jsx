@@ -29,7 +29,6 @@ export default function Register() {
             });
         }
         catch(error){
-            const usuario=localStorage.setItem("usuario")
             console.log(error);
         }
     }
